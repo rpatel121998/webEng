@@ -56,7 +56,16 @@ header ul li a:hover {
     text-align: center;
     padding: 50px 20px;
     background-color: #0056b3;
-    height: 300px;
+    height: 100vh; /* Full-screen height */
+}
+
+.hero img {
+    width: 150px; /* Profile picture size */
+    height: 150px;
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 20px;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .hero h1 {
@@ -69,25 +78,21 @@ header ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* Content Section */
-.content-section {
-    padding: 30px 20px;
-    max-width: 900px;
-    margin: auto;
-    text-align: left;
+.hero button {
+    background: white;
+    color: #0056b3;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-.content-section h2 {
-    margin-bottom: 15px;
-}
-
-.content-section ul {
-    margin-left: 20px;
-}
-
-hr {
-    margin: 20px 0;
-    border: 1px solid white;
+.hero button:hover {
+    background: #ddd;
+    transform: translateY(-2px);
 }
 
 /* Footer */
