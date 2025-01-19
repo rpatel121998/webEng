@@ -1,4 +1,5 @@
+const contactButton = document.getElementById('contactButton');
 
-document.getElementById('clickButton').addEventListener('click', function () {
-    alert('Button was clicked!');
+contactButton.addEventListener('click', () => {
+    window.location.href = 'contact.html';
 });
