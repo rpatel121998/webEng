@@ -58,7 +58,7 @@ header ul li a:hover {
     text-align: center;
     padding: 50px 20px;
     background-color: #80deea; /* Light teal */
-    height: 100vh; /* Full-screen height */
+    height: 20vh; /* Full-screen height */
 }
 
 .hero img {
