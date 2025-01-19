@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #e0f7fa; 
-    color: #333; 
+    color: #333;
     line-height: 1.6;
 }
 
@@ -48,17 +49,17 @@ header ul li a:hover {
     color: #e0f7fa; 
 }
 
-.test {
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 50px 20px;
-    background-color: #80deea; 
-    height: 20%;
+    background-color: #80deea; =
+    height: 20%; 
 }
 
-.test img {
+.hero img {
     width: 150px;
     height: 150px;
     border-radius: 50%; 
@@ -67,19 +68,19 @@ header ul li a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.test h1 {
+.hero h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
     color: #004d40; 
 }
 
-.test p {
+.hero p {
     font-size: 1.2rem;
     margin-bottom: 20px;
     color: #004d40; 
 }
 
-.test button {
+.hero button {
     background: #004d40; 
     color: white;
     border: none;
@@ -91,7 +92,7 @@ header ul li a:hover {
     transition: background-color 0.3s, transform 0.3s;
 }
 
-.test button:hover {
+.hero button:hover {
     background: #00251a; 
     transform: translateY(-2px);
 }
@@ -108,7 +109,7 @@ header ul li a:hover {
 
 .content-section h2 {
     margin-bottom: 15px;
-    color: #004d40;
+    color: #004d40; 
 }
 
 .content-section ul {
@@ -121,7 +122,6 @@ hr {
     margin: 20px 0;
     border: 1px solid #80deea; 
 }
-
 
 footer {
     background: #00acc1; 
